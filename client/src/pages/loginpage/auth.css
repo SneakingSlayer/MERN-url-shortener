@@ -1,0 +1,35 @@
+.form-input{
+    width: 100%;
+    padding: 1rem 1.5rem;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    
+}
+
+.form-input:focus{
+    outline: 1px solid #FF6148;
+    border: 1px solid #FF6148;
+}
+
+.form-btn{
+    width: 100%;
+    padding: .9rem 1.5rem;
+    border-radius: 15px;
+    background-color: #FF6148;
+    border: 0;
+    color: #fff;
+    border-radius: 15px;
+    font-weight: 500;
+    border: 2px solid #FF6148;
+    text-decoration: none;
+}
+
+.form-btn:hover{
+    background-color: transparent;
+    color: #FF6148;
+    transition: ease-in .1s;
+}
+
+.form-group{
+    margin: .5rem 0;
+}

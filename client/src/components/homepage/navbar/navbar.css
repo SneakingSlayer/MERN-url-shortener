@@ -1,0 +1,26 @@
+.navbar-cta{
+    background-color: #FF6148;
+    border: 0;
+    color: #fff;
+    padding: .5rem 1.5rem;
+    border-radius: 10px;
+    font-weight: 500;
+    border: 2px solid #FF6148;
+    text-decoration: none;
+}
+
+.navbar-cta:hover{
+    background-color: transparent;
+    color: #FF6148;
+    transition: ease-in .1s;
+}
+
+.hp-navbar{
+    background-color: #fff !important;
+}
+
+.hp-navbrand{
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 32px !important;
+    color: #FF6148 !important;
+} 

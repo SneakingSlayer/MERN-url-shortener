@@ -1,0 +1,22 @@
+.hp-card{
+    border-radius: 15px !important;
+}
+
+.card-cta{
+    background-color: transparent;
+    border: 0;
+    padding: 0 0;
+    color: #FF6148;
+}
+
+.card-icon{
+    background-color: #ffefeb;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    height: 4rem;
+    width: 4rem;
+    margin-bottom: 1rem;
+}

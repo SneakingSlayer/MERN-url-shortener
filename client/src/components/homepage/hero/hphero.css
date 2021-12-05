@@ -1,0 +1,37 @@
+.hero-title{
+    font-weight: 800;
+    color: #323b45;
+}
+
+.hero-cta{
+    background-color: #FF6148;
+    border: 0;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    font-weight: 500;
+    border: 2px solid #FF6148;
+}
+
+.hero-cta:hover{
+    background-color: transparent;
+    color: #FF6148;
+    transition: ease-in .1s;
+}
+
+
+.hero-cta-lm{
+    background-color: transparent;
+    
+    border: 0;
+    color: #323b45;
+    font-weight: 700;
+}
+
+.hero-cta-lm:hover{
+    color: #FF6148;
+}
+
+.hero-cta-group{
+    margin-top: 3rem;
+}

@@ -1,0 +1,64 @@
+.hp-full{
+    color: #fff;
+    background-color: #323b45;
+
+}
+
+.hp-input{
+    width: 100%;
+    padding: 1.1rem 1.5rem;
+    border-radius: 15px;
+    border: 0;
+    
+}
+
+.hp-input:focus{
+    outline: 2px solid #FF6148;
+}
+
+
+.hp-btn{
+    width: 100%;
+    padding: 1rem 1rem;
+    border-radius: 15px;
+    border: 0;
+    background-color: #FF6148;
+    color: #fff;
+    border: 2px solid #FF6148;
+}
+
+.hp-btn:hover{
+    background-color: transparent;
+    color: #FF6148;
+    transition: ease-in .1s;
+}
+
+.us-cont{
+    background-image: url('../../../assests/images/fill.svg');
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size:100% auto;
+    padding: 4rem 0;
+}
+
+.hp-input-wrapper{
+    position: relative;
+}
+
+.copy-btn{
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    background-color: transparent;
+    border: 0;
+    color: #FF6148;
+    height: 80x;
+    width: 80px;
+    border-radius: 15px;
+    font-size: 1.5em;
+    padding-top: .6rem;
+}
+
+.copy-btn:hover{
+    color:#323b45;
+}

@@ -1,0 +1,26 @@
+.hp-full-secondary{
+    color: #fff;
+    background-color:#FF6148;
+}
+
+.cta-img{
+    background-image: url('../../../assests/images/cta.svg');
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size:100% auto;
+}
+
+.cta-right{
+    padding: 4rem 0;
+}
+
+.sec-desc{
+    word-wrap: break-word;
+}
+
+.cta-btn{
+    color: #fff;
+    background-color: transparent;
+    border: 0;
+    padding:0;
+}
