@@ -33,17 +33,17 @@ router.get('/:id', async (req,res) => {
     const fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
     const checkID = await URL.findOne({shortened_url:fullUrl})
     
-    const dateCreated = new Date(checkID.date_created).getTime()
+    const dateNow = new Date().getTime()
     const expiresIn = new Date(checkID.expiresIn.getTime())
 
-    if(checkID && dateCreated < expiresIn){
+    if(checkID && dateNow < expiresIn){
         try{
             res.redirect(checkID.original_url)
         }catch(err){
             res.status(400).json({msg: err})
         }
     }
-    if(checkID && dateCreated > expiresIn)
+    if(checkID && dateNow > expiresIn)
         res.redirect('/404')
     if(!checkID){
         res.redirect('/404')
