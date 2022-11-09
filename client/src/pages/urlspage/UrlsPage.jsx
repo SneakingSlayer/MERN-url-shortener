@@ -169,6 +169,10 @@ export default function UrlsPage() {
         ));
       };*/
 
+  useEffect(() => {
+    document.title = "Gooly - URLs";
+  }, []);
+
   return (
     <>
       <Upnavbar />
