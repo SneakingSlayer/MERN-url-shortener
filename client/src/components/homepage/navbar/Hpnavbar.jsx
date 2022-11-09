@@ -14,22 +14,63 @@ export default function Hpnavbar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto d-flex align-items-center">
             <Nav.Link>
-              <Link activeClass="active" to="hero" spy={true} smooth={true}>
+              <Link
+                activeClass="active"
+                to="hero"
+                spy={true}
+                hashSpy={true}
+                offset={50}
+                duration={500}
+                delay={1000}
+                isDynamic={true}
+                ignoreCancelEvents={false}
+                spyThrottle={500}
+              >
                 Home
               </Link>
             </Nav.Link>
             <Nav.Link>
-              <Link activeClass="active" to="about" spy={true} smooth={true}>
+              <Link
+                activeClass="active"
+                to="about"
+                spy={true}
+                offset={50}
+                duration={500}
+                delay={1000}
+                isDynamic={true}
+                ignoreCancelEvents={false}
+                spyThrottle={500}
+              >
                 About
               </Link>
             </Nav.Link>
             <Nav.Link>
-              <Link activeClass="active" to="shorten" spy={true} smooth={true}>
+              <Link
+                activeClass="active"
+                to="shorten"
+                spy={true}
+                offset={50}
+                duration={500}
+                delay={1000}
+                isDynamic={true}
+                ignoreCancelEvents={false}
+                spyThrottle={500}
+              >
                 Shorten
               </Link>
             </Nav.Link>
             <Nav.Link>
-              <Link activeClass="active" to="faq" spy={true} smooth={true}>
+              <Link
+                activeClass="active"
+                to="faq"
+                spy={true}
+                offset={50}
+                duration={500}
+                delay={1000}
+                isDynamic={true}
+                ignoreCancelEvents={false}
+                spyThrottle={500}
+              >
                 FAQ
               </Link>
             </Nav.Link>
