@@ -27,7 +27,7 @@ export default function Upnavbar() {
             <Link to="/dashboard" className="nav-link small">
               Dashboard
             </Link>
-            <Link to="/dashboard" className="nav-link small">
+            <Link to="/urls" className="nav-link small">
               Urls
             </Link>
           </Nav>
