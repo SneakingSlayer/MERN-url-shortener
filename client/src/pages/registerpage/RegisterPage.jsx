@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState, useContext } from "react";
 import { Form, Row, Col, Container } from "react-bootstrap";
 import "../loginpage/auth.css";
-import { Navigate, useNavigate } from "react-router-dom";
+import { Navigate, useNavigate, Link } from "react-router-dom";
 import { Context } from "../../context/Context";
 import axios from "axios";
 import { BASE_URL, config } from "../../globals/globals";
@@ -55,9 +55,9 @@ export default function RegisterPage() {
         <Row className="d-flex justify-content-center text-center auth-group">
           <div>
             <h1>
-              <a className="brand" href="/">
+              <Link className="brand" to="/">
                 gooly.
-              </a>
+              </Link>
             </h1>
             <p className="small text-muted">Fill up to create an account.</p>
             {regErr ? (
@@ -118,7 +118,7 @@ export default function RegisterPage() {
                 <button className="form-btn">Sign Up</button>
               </div>
               <span>
-                Already have an account? <a href="/login">Sign In here</a>
+                Already have an account? <Link to="/login">Sign In here</Link>
               </span>
             </Form>
           </Col>

@@ -5,6 +5,7 @@ import { IoChevronDownOutline } from "react-icons/io5";
 import { FaUserCircle } from "react-icons/fa";
 import { Context } from "../../../context/Context";
 import { Navigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 export default function Upnavbar() {
   const { dispatch } = useContext(Context);
   const { id } = JSON.parse(localStorage.getItem("user"));
@@ -23,12 +24,12 @@ export default function Upnavbar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-4 ml-auto d-flex align-items-center">
-            <Nav.Link className="small" href="/dashboard">
+            <Link to="/dashboard" className="nav-link small">
               Dashboard
-            </Nav.Link>
-            <Nav.Link className="small" href="/urls">
-              URLs
-            </Nav.Link>
+            </Link>
+            <Link to="/dashboard" className="nav-link small">
+              Urls
+            </Link>
           </Nav>
           <Nav className="ms-auto d-flex align-items-center">
             <Dropdown>
